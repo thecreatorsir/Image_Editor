@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  margin: 0px;
+}
+
+.container {
+  text-align: center;
+}
+
+.heading {
+  color: cornsilk;
+  background-color: rgb(0, 140, 255);
+  padding: 5px;
+  margin: 0px;
+}
+
+img {
+  margin-top: 3rem;
+  width: 350px;
+  height: 400px;
+  float: left;
+  margin-left: 65px;
+}
+
+.range-val {
+  width: 460px;
+  height: 5px;
+  box-shadow: 0px 0px 14px 3px rgb(0, 140, 255);
+}
+
+.input-specs {
+  margin: 0px;
+  color: cornsilk;
+  text-shadow: 13px 0px 9px rgb(0, 140, 255);
+}
+
+.for-margin {
+  margin-top: 25px;
+}
+
+span {
+  float: right;
+  margin-right: 50px;
+}

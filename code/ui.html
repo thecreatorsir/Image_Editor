@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Edit Pic</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="heading">Picture editor</h1>
+      <img src="./images/img.jpg" alt="image" />
+      <span>
+        <div class="for-margin">
+          <h4 class="input-specs">width:</h4>
+          <input
+            type="range"
+            class="range-val"
+            name="width"
+            value="7"
+            min="350"
+            max="650"
+            step="0.1"
+          />
+        </div>
+        <div class="for-margin">
+          <h4 class="input-specs">height:</h4>
+          <input
+            type="range"
+            class="range-val"
+            name="height"
+            value="0"
+            max="800"
+            min="400"
+            step="0.1"
+          />
+        </div>
+        <div class="for-margin">
+          <h4 class="input-specs">border:</h4>
+          <input
+            type="range"
+            class="range-val"
+            name="border"
+            value="0"
+            max="20"
+            min="0"
+            step="0.1"
+          />
+        </div>
+        <div class="for-margin">
+          <h4 class="input-specs">round-corners:</h4>
+          <input
+            type="range"
+            class="range-val"
+            name="corners"
+            value="0"
+            max="255"
+            min="0"
+            step="0.1"
+          />
+        </div>
+        <div class="for-margin">
+          <h4 class="input-specs">blur-effect:</h4>
+          <input
+            type="range"
+            class="range-val"
+            name="blur"
+            value="0"
+            max="10"
+            min="0"
+            step="0.1"
+          />
+        </div>
+        <div class="for-margin">
+          <h4 class="input-specs">saturation:</h4>
+          <input
+            type="range"
+            class="range-val"
+            name="saturation"
+            value="0"
+            max="350"
+            min="100"
+            step="0.1"
+          />
+        </div>
+        <div class="for-margin">
+          <h4 class="input-specs">brigntness:</h4>
+          <input
+            type="range"
+            class="range-val"
+            name="brightness"
+            value="0"
+            max="250"
+            min="100"
+            step="0.1"
+          />
+        </div>
+        <div class="for-margin">
+          <h4 class="input-specs">grey:</h4>
+          <input
+            type="range"
+            class="range-val"
+            name="grey"
+            value="0"
+            max="100"
+            min="0"
+            step="0.1"
+          />
+        </div>
+      </span>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
