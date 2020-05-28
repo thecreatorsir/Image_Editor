@@ -1,2 +1,3 @@
 # Image_Editor
- A image editor with witch you can do some cool stuffs with your image
+## An image editor with which you can do some cool stuffs with your image
+<img align="left" width="850px" height="400px" src="code/images/view.png">
